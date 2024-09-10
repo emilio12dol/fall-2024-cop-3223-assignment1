@@ -80,7 +80,7 @@ double calculateHeight() {
     printf("Enter Point #2 (x2 y2): ");
     scanf("%lf %lf", &x2, &y2);
     
-    double height = fabs(y2 - y1);
+    double height = fabs (y2 - y1);
     
     printf("Point #1 entered: x1 = %.2lf; y1 = %.2lf\n", x1, y1);
     printf("Point #2 entered: x2 = %.2lf; y2 = %.2lf\n", x2, y2);
